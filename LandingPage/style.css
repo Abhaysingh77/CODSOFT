@@ -1,0 +1,223 @@
+/* -------------------NAVBAR SECTION--------------------------- */
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    /* background-image: linear-gradient(to right, cyan, wheat, white); */
+    font-family: cursive;
+}
+nav{
+    /* border: 2px solid crimson; */
+    height: 6vmax;
+    /* padding: 1%; */
+    display: flex;
+    /* background-color: rgb(187, 201, 212); */
+    box-shadow: 0 0 10px rgb(155, 165, 165);
+    /* background-image:linear-gradient(to right, cyan, violet); */
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 10000;
+}
+
+/* -------------------HOME SECTION--------------------------- */
+
+.left{
+    /* border: 2px solid yellow; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left > a{
+    text-decoration: none;;
+    color: rgb(155, 11, 40);
+    font-size: 2.5vmax;
+    font-family: cursive;
+}
+
+.mid{
+    /* border: 2px solid rgb(50, 50, 17); */
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mid >a{
+    text-decoration: none;
+    color: rgb(157, 45, 45);
+    font-size: 2vmax;
+    font-family: cursive;
+}
+
+.mid >a:hover{
+    border-bottom: 2px solid crimson;
+    transition: 0.5ms;
+}
+
+.right{
+    /* border: 2px solid rgb(184, 184, 86); */
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right>a>img{
+    inline-size: 40%;
+}
+
+section{
+    display: flex;
+    height: 90vh;
+    margin-top: 10px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+#rightContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#leftContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 3vmax;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+#leftContainer > h3{
+    font-size: 2pc;
+    margin-bottom: -8%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+#leftContainer > h1{
+    font-size: 4pc;
+    margin-left: 10%;
+    color: crimson;
+}
+
+#btn{
+    width: 25%;
+    padding: 1vmax;
+    color: crimson;
+    background-color: black;
+    margin-left: 10%;
+    margin-top: -5%;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: white;
+    color: brown;
+    transition: 0.5S;
+    cursor: pointer;
+}
+
+/* -------------------PRODUCT SECTION--------------------------- */
+#productLogo{
+    /* display: flex;
+    justify-content: center; */
+    border-bottom:  2px solid crimson;
+    width: 35vh;
+    text-align: center;
+    margin: 3vmax auto;
+    /* margin-bottom: -10px; */
+    margin-top: 10%;
+
+}
+
+#product{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#product>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vmax;
+    border-bottom: 2px solid crimson;
+    width: 15vw;
+    height: 8vh;
+    margin: auto;
+}
+.productContainer{
+    border: 3px solid crimson;
+    border-style: groove;
+    width: 20vw;
+    height: 67%;
+    margin:auto;
+
+}
+.productContainer:hover{
+    transform: translateY(-20px);
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.productContainer>img{
+    width: 20vw;
+    height: 80%
+}
+.productContainer>h3{
+    margin: 0;
+    width: 20vw;
+    text-align: center;
+}
+.productContainer>h4{
+    margin: 0;
+    width: 20vw;
+    text-align: center;
+}
+
+/* ---------------------------FOOTER------------------------ */
+footer{
+    /* background-image: linear-gradient(to right,cyan, wheat); */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+
+.icon{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    mix-blend-mode: multiply;
+}
+#first_icon{
+    margin-left: 40%;
+    width: 50px;
+    height: 50px;
+}
+#second_icon{
+    width: 50px;
+    height: 50px;
+}
+#footer_logo{
+    width: 30vw;
+    margin-top: 150px;
+    margin-left: -300px;
+    font-size: 2em;
+    text-decoration: overline;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
